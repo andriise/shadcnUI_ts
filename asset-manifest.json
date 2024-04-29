@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shadcnui_ts/static/css/main.44e98799.css",
+    "main.js": "/shadcnui_ts/static/js/main.426400ed.js",
+    "index.html": "/shadcnui_ts/index.html",
+    "main.44e98799.css.map": "/shadcnui_ts/static/css/main.44e98799.css.map",
+    "main.426400ed.js.map": "/shadcnui_ts/static/js/main.426400ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44e98799.css",
+    "static/js/main.426400ed.js"
+  ]
+}
