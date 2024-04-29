@@ -4,21 +4,40 @@
     "paths": {
       "@/*": ["./*"]
     },
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
+     "rootDir": "./src", // new
+    "outDir": "./dist", // new
+    "allowJs": false,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["dom", "ES2021"],
+    "module": "es2020",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "target": "es2019",
     "jsx": "react-jsx"
   },
   "include": ["src", "@types"]
 }
+// {
+//   "compilerOptions": {
+//     "rootDir": "./src", // new
+//     "outDir": "./dist", // new
+//     "allowJs": false,
+//     "allowSyntheticDefaultImports": true,
+//     "emitDecoratorMetadata": true,
+//     "esModuleInterop": true,
+//     "experimentalDecorators": true,
+//     "lib": ["ES2021"],
+//     "module": "es2020",
+//     "moduleResolution": "node",
+//     "preserveConstEnums": true,
+//     "skipLibCheck": true,
+//     "strictNullChecks": true,
+//     "target": "es2019"
+//   },
+//   "include": ["**/*.ts"]
+// }
